@@ -1,4 +1,4 @@
-#tix-mock-reports-generator
+# tix-mock-reports-generator
 
 This is a simple script aiming to generate mock data to test stuff in the system.
  

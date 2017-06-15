@@ -27,6 +27,7 @@ if __name__ == '__main__':
             'upQuality': random.random(),
             'downQuality': random.random(),
             'providerId': args.provider_id,
+            'ip': args.ip,
         }
         print(data)
         response = requests.post(url, json=data, auth=HTTPBasicAuth(args.username, args.password))

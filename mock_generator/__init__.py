@@ -3,6 +3,8 @@ import argparse
 
 def parse_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument('ip', type=int, action='store',
+                            help='Ip of the report')
     parser.add_argument('user_id', type=int, action='store',
                         help='Account\'s id where data wil be generated')
     parser.add_argument('username', action='store',
